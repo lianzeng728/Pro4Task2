@@ -1,0 +1,7 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [8081],
+    "postCreateCommand": "catalina.sh run"
+}
